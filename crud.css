@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section>article{
+    height: 80%;
+    width: 80%;
+    border: 2px solid white;
+}
+
+section>article>.myForm{
+    height: 30%;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+section>article>.myForm>form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section>article>.myForm input{
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    margin-left: 30px;
+    color: white;
+
+}
+
+section>article>.myForm input::placeholder{
+    color: white;
+}
+
+section>article>.myForm button{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    margin-left: 30px;
+}
+
+section>article>.myForm button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+section>article>.myTable{
+    height: 70%;
+    width: 100%;
+
+}
+section>article>.myTable>table{
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+
+
+
